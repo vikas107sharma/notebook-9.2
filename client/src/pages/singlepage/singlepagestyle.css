@@ -1,0 +1,23 @@
+.Title{
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.Main_layout{
+    width: 60%;
+}
+
+.Video_player{
+    height: 400px;
+}
+
+@media only screen and (max-width: 600px) {
+    .Video_player {
+      height: 150px;
+    }
+    .Main_layout{
+        width: 90%;
+    }
+  }
